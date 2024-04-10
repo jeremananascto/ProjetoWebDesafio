@@ -1,0 +1,100 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Compra de tres produtos",
+        "description": "",
+        "id": "compra-de-produtos-no-automationpractice.pl/index.php;compra-de-tres-produtos",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24665803400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que eu esteja na pagina do ecomerce",
+            "match": {
+              "location": "CompraDeProdutosSteps.que_eu_esteja_na_pagina_do_ecomerce()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 18244281800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "esteja cadastrado e logado",
+            "match": {
+              "location": "CompraDeProdutosSteps.esteja_cadastrado_e_logado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22434178700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "adiciono tres produtos ao carrinho",
+            "match": {
+              "location": "CompraDeProdutosSteps.adiciono_tres_produtos_ao_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 11095209601,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "finalizo a compra",
+            "match": {
+              "location": "CompraDeProdutosSteps.finalizo_a_compra()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 16403717000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "devo receber uma confirmação de pedido",
+            "match": {
+              "location": "CompraDeProdutosSteps.devo_receber_uma_confirmação_de_pedido()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@compra-de-produtos"
+          },
+          {
+            "name": "@compra"
+          }
+        ]
+      }
+    ],
+    "name": "Compra de produtos no automationpractice.pl/index.php",
+    "description": "  Como um cliente cadastrado\n  Eu quero fazer a compra de ao menos três produtos\n  Para que eu possa estar bem vestida",
+    "id": "compra-de-produtos-no-automationpractice.pl/index.php",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/compradeprodutos.feature",
+    "tags": [
+      {
+        "name": "@compra-de-produtos",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
